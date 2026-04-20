@@ -1,13 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   margin: 0;
-  background-color: white;
+  background: white;
 }
 
+/* top menu */
 .navbar {
-  list-style: none;
   display: flex;
-  background-color: #111827;
+  list-style: none;
+  background: #111827;
   padding: 15px;
   margin: 0;
 }
@@ -19,18 +20,16 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .navbar a:hover {
   color: #38bdf8;
 }
 
+/* page content box */
 .container {
-  padding: 30px;
+  padding: 20px;
   max-width: 900px;
-  margin: auto;
+  margin: 20px auto;
   background: white;
-  margin-top: 20px;
-  border-radius: 10px;
 }
