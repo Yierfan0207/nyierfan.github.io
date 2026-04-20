@@ -4,7 +4,6 @@ body {
   background: white;
 }
 
-/* top menu */
 .navbar {
   display: flex;
   list-style: none;
@@ -23,10 +22,9 @@ body {
 }
 
 .navbar a:hover {
-  color: #38bdf8;
+  color: navy blue;
 }
 
-/* page content box */
 .container {
   padding: 20px;
   max-width: 900px;
